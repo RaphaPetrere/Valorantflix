@@ -5,8 +5,8 @@ import { FooterBase } from './styles';
 function Footer() {
   return (
     <FooterBase>
-      <a href="https://www.alura.com.br/">
-        <img src={logo} style={{height : "40px"}} alt="Logo Alura" />
+      <a href="/">
+        <img src={logo} style={{height : "40px"}} alt="Logo Valorantflix" />
       </a>
       {/* <p>
         Orgulhosamente criado durante a
