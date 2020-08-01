@@ -6,12 +6,12 @@ import Button from '../../../Components/Button';
 
 function CadastroCategoria() {
   const valoresIniciais = {
-    nome: '',
+    titulo: '',
     descricao: '',
     cor: '#000',
   };
 
-  const [categorias, setCategorias] = useState([{ nome: 'Teste' }]);
+  const [categorias, setCategorias] = useState([]);
   const [formValues, setFormValues] = useState(valoresIniciais);
 
   function handleSubmit(e) {
@@ -50,7 +50,7 @@ function CadastroCategoria() {
     <PageDefault>
       <h1>
         Cadastro de Categoria:
-        {formValues.nome}
+        {formValues.titulo}
       </h1>
 
       <form onSubmit={handleSubmit} style={{ background: formValues.cor, borderRadius: '10px' }}>
@@ -58,7 +58,7 @@ function CadastroCategoria() {
           label="Nome da Categoria: "
           type="text"
           name="nome"
-          value={formValues.nome}
+          value={formValues.titulo}
           onChange={handleInputChange}
         />
 
@@ -90,9 +90,9 @@ function CadastroCategoria() {
       )}
 
       <ul>
-        {categorias.map((categoria) => (
-          <li key={`${categoria.nome}`}>
-            {categoria.nome}
+        {categorias.map((categoria, indice) => (
+          <li key={`${categoria}${indice}`}>
+            {categoria.titulo}
           </li>
         ))}
       </ul>
