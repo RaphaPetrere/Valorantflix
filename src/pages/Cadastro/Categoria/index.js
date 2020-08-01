@@ -36,7 +36,7 @@ function CadastroCategoria() {
   }
 
   useEffect(() => {
-    const URL = 'http://localhost:8080/categorias';
+    const URL = window.location.hostname.includes('localhost') ? 'http://localhost:8080/categorias' : 'https://valorantflix.herokuapp.com/categorias';
     fetch(URL)
       .then(async (response) => {
         const resposta = await response.json();

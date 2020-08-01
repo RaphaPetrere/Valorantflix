@@ -1,14 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { Switch, Route, BrowserRouter } from 'react-router-dom';
 import './index.css';
 
 import Home from './pages/Home';
 import CadastroVideo from './pages/Cadastro/Video';
 import CadastroCategoria from './pages/Cadastro/Categoria';
 
-import { Switch, Route, BrowserRouter } from 'react-router-dom';
-
-const Pagina404 = () => (<div>Página 404</div>)
+const Pagina404 = () => (<div>Página 404</div>);
 
 ReactDOM.render(
   <BrowserRouter>
@@ -19,5 +18,6 @@ ReactDOM.render(
       <Route component={Pagina404} />
     </Switch>
   </BrowserRouter>,
-  document.getElementById('root')
+  document.getElementById('root'),
+
 );
