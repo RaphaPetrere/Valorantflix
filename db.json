@@ -1,0 +1,40 @@
+{
+    "categorias" : [
+        {
+            "id": 1,
+            "nome": "Cinematics",
+            "descricao": "Vídeos promocionais",
+            "cor": "#ca313e"
+        },
+        {
+            "id": 2,
+            "nome": "Jett",
+            "descricao": "Aprenda com NRG ACE",
+            "cor": "#6BD1FF"
+        },
+        {
+            "id": 3,
+            "nome": "Omen",
+            "descricao": "Aprenda com Flex Ninja",
+            "cor": "#482fa3"
+        },
+        {
+            "id": 4,
+            "nome": "Sova",
+            "descricao": "Aprenda com RED",
+            "cor": "#1560c2"
+        },
+        {
+            "id": 5,
+            "nome": "Raze",
+            "descricao": "Aprenda com Fly",
+            "cor": "orange"
+        },
+        {
+            "id": 6,
+            "nome": "Reyna",
+            "descricao": "Broken",
+            "cor": "9c2dc2"
+        }
+    ]
+}
