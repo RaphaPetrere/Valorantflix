@@ -3,37 +3,18 @@ import { Link } from 'react-router-dom';
 import PageDefault from '../../../Components/PageDefault';
 import FormField from '../../../Components/FormField';
 import Button from '../../../Components/Button';
+import useForm from '../../../hooks/useForm';
 
 function CadastroCategoria() {
   const valoresIniciais = {
     titulo: '',
     descricao: '',
-    cor: '#000',
+    cor: '#000000',
   };
 
+  const { formValues, handleInputChange, clearForm } = useForm(valoresIniciais);
+
   const [categorias, setCategorias] = useState([]);
-  const [formValues, setFormValues] = useState(valoresIniciais);
-
-  function handleSubmit(e) {
-    e.preventDefault();
-    setCategorias([...categorias, formValues]);
-    setFormValues(valoresIniciais);
-  }
-
-  function setValue(chave, valor) {
-    setFormValues({
-      ...formValues,
-      [chave]: valor,
-    });
-  }
-
-  function handleInputChange(e) {
-    // const { getAttribute, value } = e.target;
-    setValue(
-      e.target.getAttribute('name'),
-      e.target.value,
-    );
-  }
 
   useEffect(() => {
     const URL = window.location.hostname.includes('localhost') ? 'http://localhost:8080/categorias' : 'https://valorantflix.herokuapp.com/categorias';
@@ -53,11 +34,18 @@ function CadastroCategoria() {
         {formValues.titulo}
       </h1>
 
-      <form onSubmit={handleSubmit} style={{ background: formValues.cor, borderRadius: '10px' }}>
+      <form
+        onSubmit={function handleSubmit(e) {
+          e.preventDefault();
+          setCategorias([...categorias, formValues]);
+          clearForm();
+        }}
+        style={{ background: formValues.cor, borderRadius: '10px' }}
+      >
         <FormField
           label="Nome da Categoria: "
           type="text"
-          name="nome"
+          name="titulo"
           value={formValues.titulo}
           onChange={handleInputChange}
         />
@@ -90,8 +78,8 @@ function CadastroCategoria() {
       )}
 
       <ul>
-        {categorias.map((categoria, indice) => (
-          <li key={`${categoria}${indice}`}>
+        {categorias.map((categoria) => (
+          <li key={`${categoria.titulo}`}>
             {categoria.titulo}
           </li>
         ))}

@@ -1,211 +1,214 @@
 {
-    "categorias": [
-      {
-        "id": 1,
-        "titulo": "Cinematics",
-        "cor": "#ca313e",
-        "descricao" : "Confira os duelistas",
-        "link_extra": {
-          "text": "Vídeos promocionais",
-          "url": "https://www.youtube.com/playlist?list=PLTFsoy_DWCONugy9law3M0VXPzOa2N4W3"
-        }
-      },
-      {
-        "id": 2,
-        "titulo": "Jett",
-        "cor": "#6BD1FF",
-        "descricao" : "Aprenda com NRG ACE",
-        "link_extra": {
-          "url": "https://www.youtube.com/user/ByHyped"
-        }
-      },
-      {
-        "id": 3,
-        "titulo": "Omen",
-        "cor": "#482fa3",
-        "descricao" : "Aprenda com Flex Ninja",
-        "link_extra": {
-          "url": "https://www.youtube.com/c/Flexinja"
-        }
-      },
-      {
-        "id": 4,
-        "titulo": "Sova",
-        "cor": "#1560c2",
-        "descricao" : "Aprenda com RED",
-        "link_extra" : {
-          "url" : "https://www.youtube.com/channel/UCFJ1pr8iwWPeQjmeHnPhqvA"
-        }
-      },
-      {
-        "id": 5,
-        "titulo": "Raze",
-        "cor": "orange",
-        "descricao" : "Aprenda com Flights"
-      },
-      {
-        "id": 6,
-        "titulo": "Reyna",
-        "cor": "#9c2dc2",
-        "descricao" : "Campeã nova!"
+  "categorias": [
+    {
+      "id": 1,
+      "titulo": "Cinematics",
+      "cor": "#ca313e",
+      "descricao": "Confira os duelistas",
+      "link_extra": {
+        "text": "Vídeos promocionais",
+        "url": "https://www.youtube.com/playlist?list=PLTFsoy_DWCONugy9law3M0VXPzOa2N4W3"
       }
-    ],
-    "videos": [
-        {
-          "id": 1,
-          "categoriaId": 1,
-          "titulo": "Cinematica oficial de lançamento",
-          "url": "https://www.youtube.com/watch?v=e_E9W2vsRbQ"
-        },
-        {
-          "id": 2,
-          "categoriaId": 1,  
-          "titulo": "Apresentando Ancifogo",
-          "url": "https://youtu.be/5oslaJjYdzs"
-        },
-        {
-          "id": 3,
-          "categoriaId": 1,  
-          "titulo": "Filas ranqueadas disponiveis!",
-          "url": "https://youtu.be/Z2_FGyICm2s"
-        },
-        {
-          "id": 4,
-          "categoriaId": 2,
-          "titulo": "THE DASH MASTER",
-          "url": "https://www.youtube.com/watch?v=6pHdz-lt6gU"
-        },
-        {
-          "id": 5,
-          "categoriaId": 2,
-          "titulo": "HOW I WON A SOLO RANKED MATCH AGAINST A 5 STACK",
-          "url": "https://www.youtube.com/watch?v=UU-6rKpCMDU"
-        },
-        {
-          "id": 6,
-          "categoriaId": 2,
-          "titulo": "JETT MOVEMENT",
-          "url": "https://www.youtube.com/watch?v=jq4gDWJTEKM"
-        },
-        {
-          "id": 7,
-          "categoriaId": 2,
-          "titulo": "HOW I GOT TO RADIANT",
-          "url": "https://www.youtube.com/watch?v=7zSNq63VV30"
-        }, 
-        {
-          "id": 8,
-          "categoriaId": 2,
-          "titulo": "I DROPPED A 50 BOMB WITH JETT",
-          "url": "https://www.youtube.com/watch?v=Um__uVOxl74"
-        },
-        {
-          "id": 9,
-          "categoriaId": 3,
-          "titulo": "Playing Omen as a DUELIST in Immortal Ranked Valorant",
-          "url": "https://www.youtube.com/watch?v=r4doGEL19lE"
-        },
-        {
-          "id": 10,
-          "categoriaId": 3,
-          "titulo": "Unlocking Omen's Aggressive Playstyle",
-          "url": "https://www.youtube.com/watch?v=wGsF5ZDkd5I"
-        },
-        {
-          "id": 11,
-          "categoriaId": 3,
-          "titulo": "This is why Omen is Overpowered",
-          "url": "https://www.youtube.com/watch?v=vfOaZcJtCu4"
-        },
-        {
-          "id": 12,
-          "categoriaId": 3,
-          "titulo": "Aggressive Omen Outplays in Diamond/Immortal Ranked Valorant!",
-          "url": "https://www.youtube.com/watch?v=hNwCs0YWQ4I"
-        },
-        {
-          "id": 13,
-          "categoriaId": 4,
-          "titulo": "Sova Outplays in Diamond/Immortal Rank (Pro Arrow Lineups)",
-          "url": "https://youtu.be/Trpihtr_zYw?t=64"
-        },
-        {
-          "id": 14,
-          "categoriaId": 4,
-          "titulo": "Why Sova is the BEST Solo Q Agent (Pro Arrows)",
-          "url": "https://www.youtube.com/watch?v=bop_n95g1jU"
-        },
-        {
-          "id": 15,
-          "categoriaId": 4,
-          "titulo": "Sova Plays from Diamond to Immortal Rank (Pro Arrows)",
-          "url": "https://www.youtube.com/watch?v=5G9_bycPSQU"
-        },
-        {
-          "id": 16,
-          "categoriaId": 4,
-          "titulo": "SPLIT Pro Sova SHOCK DARTS (Volley/Double Shocks)",
-          "url": "https://www.youtube.com/watch?v=pnQBuwxL7R4"
-        },
-        {
-          "id": 17,
-          "categoriaId": 5,
-          "titulo": "THE POWER OF RAZE MAINS - 200 IQ Tricks",
-          "url": "https://www.youtube.com/watch?v=_kuESMAzrH8"
-        },
-        {
-          "id": 18,
-          "categoriaId": 5,
-          "titulo": "INCREDIBLE RAZE Tricks EVERYONE Must Know",
-          "url": "https://www.youtube.com/watch?v=jxlE8afU8zc"
-        },
-        {
-          "id": 19,
-          "categoriaId": 5,
-          "titulo": "How to Make RAZE BROKEN: Abilities, Combos and Mechanics You MUST EXPLOIT",
-          "url": "https://www.youtube.com/watch?v=DZhjdW_TqD8"
-        },
-        {
-          "id": 20,
-          "categoriaId": 5,
-          "titulo": "INSANE RAZE Movement on Valorant",
-          "url": "https://www.youtube.com/watch?v=12EGI8et6no"
-        },
-        {
-          "id": 21,
-          "categoriaId": 5,
-          "titulo": "How I made Aggressive RAZE plays popular on Valorant",
-          "url": "https://www.youtube.com/watch?v=sh_Vqame--U"
-        },
-        {
-          "id": 22,
-          "categoriaId": 6,
-          "titulo": "THE ULTIMATE REYNA MONTAGE",
-          "url": "https://www.youtube.com/watch?v=r1Mp4YUMSnA"
-        },
-        {
-          "id": 23,
-          "categoriaId": 6,
-          "titulo": "8 BEST Tips To SOLO Hard Carry as Reyna",
-          "url": "https://www.youtube.com/watch?v=il-8uDhe0W8"
-        },
-        {
-          "id": 24,
-          "categoriaId": 6,
-          "titulo": "The ULTIMATE PRO REYNA GUIDE! ft. TenZ, Aceu, and Mendo",
-          "url": "https://www.youtube.com/watch?v=OHF4dM3_M4o"
-        },
-        {
-          "id": 25,
-          "categoriaId": 6,
-          "titulo": "REYNA 40+ KILL VALORANT GAMEPLAY",
-          "url": "https://www.youtube.com/watch?v=wyM3pZa0-0c"
-        },
-        {
-          "id": 26,
-          "categoriaId": 6,
-          "titulo": "THE REYNA COMEBACK THAT SAVED THE DAY",
-          "url": "https://www.youtube.com/watch?v=GqHM8MpO5Hg"
-        }
-    ]
-  }
+    },
+    {
+      "id": 2,
+      "titulo": "Jett",
+      "cor": "#6BD1FF",
+      "descricao": "Aprenda com NRG ACE",
+      "link_extra": {
+        "text": "Aprenda com NRG ACE",
+        "url": "https://www.youtube.com/user/ByHyped"
+      }
+    },
+    {
+      "id": 3,
+      "titulo": "Omen",
+      "cor": "#482fa3",
+      "descricao": "Aprenda com Flex Ninja",
+      "link_extra": {
+        "text": "Aprenda com Flex Ninja",
+        "url": "https://www.youtube.com/c/Flexinja"
+      }
+    },
+    {
+      "id": 4,
+      "titulo": "Sova",
+      "cor": "#1560c2",
+      "descricao": "Aprenda com RED",
+      "link_extra": {
+        "text": "Aprenda com RED",
+        "url": "https://www.youtube.com/channel/UCFJ1pr8iwWPeQjmeHnPhqvA"
+      }
+    },
+    {
+      "id": 5,
+      "titulo": "Raze",
+      "cor": "orange",
+      "descricao": "Aprenda com Flights"
+    },
+    {
+      "id": 6,
+      "titulo": "Reyna",
+      "cor": "#9c2dc2",
+      "descricao": "Campeã nova!"
+    }
+  ],
+  "videos": [
+    {
+      "id": 1,
+      "categoriaId": 1,
+      "titulo": "Cinematica oficial de lançamento",
+      "url": "https://www.youtube.com/watch?v=e_E9W2vsRbQ"
+    },
+    {
+      "id": 2,
+      "categoriaId": 1,
+      "titulo": "Apresentando Ancifogo",
+      "url": "https://youtu.be/5oslaJjYdzs"
+    },
+    {
+      "id": 3,
+      "categoriaId": 1,
+      "titulo": "Filas ranqueadas disponiveis!",
+      "url": "https://youtu.be/Z2_FGyICm2s"
+    },
+    {
+      "id": 4,
+      "categoriaId": 2,
+      "titulo": "THE DASH MASTER",
+      "url": "https://www.youtube.com/watch?v=6pHdz-lt6gU"
+    },
+    {
+      "id": 5,
+      "categoriaId": 2,
+      "titulo": "HOW I WON A SOLO RANKED MATCH AGAINST A 5 STACK",
+      "url": "https://www.youtube.com/watch?v=UU-6rKpCMDU"
+    },
+    {
+      "id": 6,
+      "categoriaId": 2,
+      "titulo": "JETT MOVEMENT",
+      "url": "https://www.youtube.com/watch?v=jq4gDWJTEKM"
+    },
+    {
+      "id": 7,
+      "categoriaId": 2,
+      "titulo": "HOW I GOT TO RADIANT",
+      "url": "https://www.youtube.com/watch?v=7zSNq63VV30"
+    },
+    {
+      "id": 8,
+      "categoriaId": 2,
+      "titulo": "I DROPPED A 50 BOMB WITH JETT",
+      "url": "https://www.youtube.com/watch?v=Um__uVOxl74"
+    },
+    {
+      "id": 9,
+      "categoriaId": 3,
+      "titulo": "Playing Omen as a DUELIST in Immortal Ranked Valorant",
+      "url": "https://www.youtube.com/watch?v=r4doGEL19lE"
+    },
+    {
+      "id": 10,
+      "categoriaId": 3,
+      "titulo": "Unlocking Omen's Aggressive Playstyle",
+      "url": "https://www.youtube.com/watch?v=wGsF5ZDkd5I"
+    },
+    {
+      "id": 11,
+      "categoriaId": 3,
+      "titulo": "This is why Omen is Overpowered",
+      "url": "https://www.youtube.com/watch?v=vfOaZcJtCu4"
+    },
+    {
+      "id": 12,
+      "categoriaId": 3,
+      "titulo": "Aggressive Omen Outplays in Diamond/Immortal Ranked Valorant!",
+      "url": "https://www.youtube.com/watch?v=hNwCs0YWQ4I"
+    },
+    {
+      "id": 13,
+      "categoriaId": 4,
+      "titulo": "Sova Outplays in Diamond/Immortal Rank (Pro Arrow Lineups)",
+      "url": "https://youtu.be/Trpihtr_zYw?t=64"
+    },
+    {
+      "id": 14,
+      "categoriaId": 4,
+      "titulo": "Why Sova is the BEST Solo Q Agent (Pro Arrows)",
+      "url": "https://www.youtube.com/watch?v=bop_n95g1jU"
+    },
+    {
+      "id": 15,
+      "categoriaId": 4,
+      "titulo": "Sova Plays from Diamond to Immortal Rank (Pro Arrows)",
+      "url": "https://www.youtube.com/watch?v=5G9_bycPSQU"
+    },
+    {
+      "id": 16,
+      "categoriaId": 4,
+      "titulo": "SPLIT Pro Sova SHOCK DARTS (Volley/Double Shocks)",
+      "url": "https://www.youtube.com/watch?v=pnQBuwxL7R4"
+    },
+    {
+      "id": 17,
+      "categoriaId": 5,
+      "titulo": "THE POWER OF RAZE MAINS - 200 IQ Tricks",
+      "url": "https://www.youtube.com/watch?v=_kuESMAzrH8"
+    },
+    {
+      "id": 18,
+      "categoriaId": 5,
+      "titulo": "INCREDIBLE RAZE Tricks EVERYONE Must Know",
+      "url": "https://www.youtube.com/watch?v=jxlE8afU8zc"
+    },
+    {
+      "id": 19,
+      "categoriaId": 5,
+      "titulo": "How to Make RAZE BROKEN: Abilities, Combos and Mechanics You MUST EXPLOIT",
+      "url": "https://www.youtube.com/watch?v=DZhjdW_TqD8"
+    },
+    {
+      "id": 20,
+      "categoriaId": 5,
+      "titulo": "INSANE RAZE Movement on Valorant",
+      "url": "https://www.youtube.com/watch?v=12EGI8et6no"
+    },
+    {
+      "id": 21,
+      "categoriaId": 5,
+      "titulo": "How I made Aggressive RAZE plays popular on Valorant",
+      "url": "https://www.youtube.com/watch?v=sh_Vqame--U"
+    },
+    {
+      "id": 22,
+      "categoriaId": 6,
+      "titulo": "THE ULTIMATE REYNA MONTAGE",
+      "url": "https://www.youtube.com/watch?v=r1Mp4YUMSnA"
+    },
+    {
+      "id": 23,
+      "categoriaId": 6,
+      "titulo": "8 BEST Tips To SOLO Hard Carry as Reyna",
+      "url": "https://www.youtube.com/watch?v=il-8uDhe0W8"
+    },
+    {
+      "id": 24,
+      "categoriaId": 6,
+      "titulo": "The ULTIMATE PRO REYNA GUIDE! ft. TenZ, Aceu, and Mendo",
+      "url": "https://www.youtube.com/watch?v=OHF4dM3_M4o"
+    },
+    {
+      "id": 25,
+      "categoriaId": 6,
+      "titulo": "REYNA 40+ KILL VALORANT GAMEPLAY",
+      "url": "https://www.youtube.com/watch?v=wyM3pZa0-0c"
+    },
+    {
+      "id": 26,
+      "categoriaId": 6,
+      "titulo": "THE REYNA COMEBACK THAT SAVED THE DAY",
+      "url": "https://www.youtube.com/watch?v=GqHM8MpO5Hg"
+    }
+  ]
+}
